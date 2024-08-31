@@ -1,6 +1,6 @@
 import React from "react";
 import ReactApexChart from "react-apexcharts";
-import { COLORS, GeneralHeaders } from "../styles/app.styles";
+import { COLORS,  } from "../styles/app.styles";
 import { GeneralDiv } from "../styles/education.styles";
 export default function SimpleBarChart(props) {
   let mark1 = [],

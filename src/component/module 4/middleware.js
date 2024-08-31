@@ -6,7 +6,7 @@ export function filterBand(band) {
 }
 
 export function graph1finalAxis(XYAxsis1, row, col) {
-  let XY = new Array();
+  let XY = [];
   for (let i = 0; i < col; i++) {
     let temp = [];
     for (let j = 0; j < row; j++) {
@@ -45,16 +45,16 @@ export function returnAllBandWithDivision2(band) {
 
 export function MarryMiddleWare(band) {
   let data1 = band.filter((obj) => {
-    return obj["Martial Status"] == 1;
+    return obj["Martial Status"] === 1;
   });
   let data2 = band.filter((obj) => {
-    return obj["Martial Status"] == 0;
+    return obj["Martial Status"] === 0;
   });
   let data3 = band.filter((obj) => {
-    return obj["Martial Status"] == 1 && obj["Spouse job"] == 1;
+    return obj["Martial Status"] === 1 && obj["Spouse job"] === 1;
   });
   let data4 = band.filter((obj) => {
-    return obj["Martial Status"] == 1 && obj["Spouse job"] == 0;
+    return obj["Martial Status"] === 1 && obj["Spouse job"] === 0;
   });
   return [data1.length, data2.length, data3.length, data4.length];
 }

@@ -1,12 +1,12 @@
 import "./App.css";
 
-import React, { Component } from "react";
+//import React, { Component } from "react";
 import {
   BrowserRouter as Router,
-  Link,
+  //Link,
   Route,
   Switch,
-  Redirect,
+  //Redirect,
 } from "react-router-dom";
 import Home from "./component/home";
 import Second from "./component/Second";

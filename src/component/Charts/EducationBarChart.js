@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React, {  } from "react";
 // import { Line } from "react-chartjs-2";
 import ReactApexChart from "react-apexcharts";
-import { GeneralHeaders, GraphContainerHeader } from "../styles/app.styles";
+import { GeneralHeaders,  } from "../styles/app.styles";
 
 export default function EducationBarChart(props) {
   const series = [

@@ -50,7 +50,7 @@ export function returnAllBandWithDivision1(band) {
 }
 
 export function graph1finalAxis(XYAxsis1, row, col) {
-  let XY = new Array();
+  let XY = [];
   for (let i = 0; i < col; i++) {
     let temp = [];
     for (let j = 0; j < row; j++) {

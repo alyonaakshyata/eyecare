@@ -6,7 +6,7 @@ import PageHeader from "../generalComponent/PageHeader";
 import {
   filterBand,
   graph1finalAxis,
-  MatchSalaryToBand,
+  //MatchSalaryToBand,
   returnAllBandWithDivision,
   returnAllBandWithDivision1,
   returnAllBandWithDivision3,

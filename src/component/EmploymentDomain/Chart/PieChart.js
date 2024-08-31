@@ -2,7 +2,7 @@ import React from "react";
 import ReactApexChart from "react-apexcharts";
 
 export default function PieChart(props) {
-  let { data, labels, XCOLOR } = props;
+  let { data, labels,  } = props;
   let options = {
     chart: {
       height: 100,

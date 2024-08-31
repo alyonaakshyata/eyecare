@@ -6,7 +6,7 @@ import { LargeBarGraph, GeneralHeaders, COLORS } from "../styles/app.styles";
 import { GeneralDiv } from "../styles/education.styles";
 export default class FrameworkDiv1 extends Component {
   render() {
-    let { label1, label2, title1, XCOLOR, YCOLOR, BCOLOR } = this.props;
+    let {  label2,  XCOLOR, YCOLOR, BCOLOR } = this.props;
 
     return (
       <div>

@@ -1,9 +1,9 @@
 import React from "react";
-import { GeneralHeaders } from "../styles/app.styles";
+//import { GeneralHeaders } from "../styles/app.styles";
 import ReactApexChart from "react-apexcharts";
 
 export default function PieChart(props) {
-  let { lenData, tierData, label } = props;
+  let { lenData,  label } = props;
   let options = {
     chart: {
       height: 100,

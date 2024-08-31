@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { COLORS, Fonts } from "./app.styles";
+import { COLORS,  } from "./app.styles";
 
 export const GeneralDiv = styled.div`
   display: block;
